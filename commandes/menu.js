@@ -32,23 +32,23 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────✧${s.BOT}✧────◆
-│   *Préfix* : ${s.PREFIXE}
-│   *Owner* : ${s.OWNER_NAME}
+╭────✧${𖣘𝑴𝑨𝑿𝑾𝑬𝑳𝑳-𝑴𝑫♡}✧────◆
+│   *P𝕣𝕖𝕗𝕝𝕚𝕩* : ${s.PREFIXE}
+│   *𝕠𝕨𝕟𝕖𝕣* : ${s.OWNER_NAME}
 │   *Mode* : ${mode}
 │   *Commands* : ${cm.length}
 │   *Date* : ${date}
 │   *Hour* : ${temps}
-│   *Mémoire* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│   *Plateforme* : ${os.platform()}
-│   *Développer* : Djalega++ 
-│  & M๏𝓷keℽ D Lบffy
-╰─────✧WA-BOT✧─────◆ \n\n`;
+│   *M𝕖𝕞𝕠𝕣𝕪* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+│   *𝕡𝕝𝕒𝕥𝕗𝕠𝕣𝕞* : ${os.platform()}
+│   *D𝕖𝕧𝕠𝕝𝕠𝕡𝕖𝕣* :𝙼𝙰𝚇𝚆𝙴𝙻𝙻 
+│ *𝕔𝕦𝕤𝕥𝕠𝕞𝕖𝕣 𝕤𝕖𝕧𝕚𝕔𝕖:https://wa.me/2349120730021
+╰─────✧𖣘𝑴𝑨𝑿𝑾𝑬𝑳𝑳-𝑴𝑫♡●✧─────◆ \n\n`;
     
 let menuMsg = `
-👋 Hello ${nomAuteurMessage} 👋
+👋  what's up${nomAuteurMessage} 👋
 
-*List of commands :*
+*𝚕𝚒𝚜𝚝 𝚘𝚏 𝚖𝚊𝚡𝚠𝚎𝚕𝚕 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 :*
 ◇                             ◇
 `;
 
@@ -64,19 +64,19 @@ let menuMsg = `
 
     menuMsg += `
 ◇            ◇
-*»»————— ★ —————««*
+*»»—————𝑴𝑨𝑿𝑾𝑬𝑳𝑳-𝑴𝑫—————««*
 "To use a command, insert ${prefixe} followed by the command_name."
  
-    Powered by Zokou-MD
+    Powered by 𖣘𝑴𝑨𝑿𝑾𝑬𝑳𝑳-𝑴𝑫♡●
                                                 
-*»»————— ★ —————««*
+*»»————— 𝑴𝑨𝑿𝑾𝑬𝑳𝑳 —————««*
 `;
 
    var lien = mybotpic();
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Zokou-MD*, développé par Djalega++" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *𖣘𝑴𝑨𝑿𝑾𝑬𝑳𝑳-𝑴𝑫♡●*, développé par Djalega++" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -86,7 +86,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Zokou-MD*, développé par Djalega++" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *𖣘𝑴𝑨𝑿𝑾𝑬𝑳𝑳-𝑴𝑫♡●*, développé par Djalega++" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
